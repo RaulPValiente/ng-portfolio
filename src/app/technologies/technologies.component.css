@@ -1,0 +1,18 @@
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.main {
+    margin-top: 200px;
+}
