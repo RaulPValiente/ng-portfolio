@@ -1,0 +1,33 @@
+ul li a {
+    color: #EEEEEE;
+    list-style-type: none;
+    text-decoration: none;
+    transition: all .5s;
+    text-transform: uppercase;
+}
+nav {
+    border-bottom: 1px solid  rgba(238, 238, 238, 0.3);
+    position: sticky;
+}
+
+.nav-links {
+    position: relative;
+    color: #EEEEEE; 
+    letter-spacing: 1px; text-decoration: none;
+    padding: 7px;
+    margin: 0 10px;
+}
+
+.nav-links::before{
+    content: "";
+    position: absolute;
+    bottom: 0; left:0;
+    width:0; height: 1px;
+    transition: width 0.3s ease-out;
+    background-color: #EEEEEE;
+}
+
+.nav-links:hover::before{
+    width: 100%;
+}
+

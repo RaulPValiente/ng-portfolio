@@ -1,0 +1,30 @@
+.buttons .btn {
+    margin: 0px 10px;
+    border: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons svg {
+    margin-right: 5px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.email span {
+    background-color: #EEEEEE;
+    color: black;
+    font-size: 1em;
+    padding-right: 30px;
+}
