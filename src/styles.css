@@ -1,6 +1,14 @@
 body { 
-    background-color: #222831;
-    font-family: 'Satoshi', sans-serif;                    
+    /* background-color: #222831; */
+    background-color: black;
+    font-family: 'Satoshi', sans-serif;                   
 }
 
+html {
+    cursor: url('assets/img/cursor-std.svg'), auto;
+}
 
+button,
+a {
+  cursor: url('assets/img/cursor-click.svg'), pointer !important;
+}

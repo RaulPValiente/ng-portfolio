@@ -5,6 +5,11 @@ ul li a {
     transition: all .5s;
     text-transform: uppercase;
 }
+
+li {
+    list-style: none;
+}
+
 nav {
     border-bottom: 1px solid  rgba(238, 238, 238, 0.3);
     position: sticky;
@@ -13,7 +18,8 @@ nav {
 .nav-links {
     position: relative;
     color: #EEEEEE; 
-    letter-spacing: 1px; text-decoration: none;
+    letter-spacing: 1px;
+    text-decoration: none;
     padding: 7px;
     margin: 0 10px;
 }
