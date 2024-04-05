@@ -50,4 +50,7 @@ svg {
         width: 20px;
     }
     
+    .buttons .btn {
+        margin: 0px 5px;
+    }
 }

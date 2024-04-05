@@ -1,7 +1,7 @@
 h1 {
     font-size: 3rem;
     text-transform: uppercase;
-    position: relative;
+    /* position: relative; */
     color: #EEEEEE; 
     letter-spacing: 1px;
     text-decoration: none;
@@ -16,8 +16,8 @@ h2 {
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     margin: 20px;
     transition: transform 0.1s ease-in-out;
 }
@@ -82,3 +82,39 @@ h3 {
 .other {
     color: chartreuse;
 }
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tech {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    img {
+        width: 45px;
+        height: 45px;
+        margin: 5px;
+    }
+  }
+  
+  /* Media query para tabletas */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    img {
+        width: 45px;
+        height: 45px;
+        margin: 15px;
+    }
+    
+  }
+  
