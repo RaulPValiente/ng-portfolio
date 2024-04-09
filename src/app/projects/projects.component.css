@@ -1,0 +1,106 @@
+.left-side h3 {
+    font-size: 1rem;
+    margin: 0;
+    color: black;
+}
+
+.tech {
+    gap: 5px;
+}
+
+.main {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    position: relative;
+    color: #EEEEEE;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 7px;
+    margin: 0 10px;
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    bottom: 0; left:0;
+    width:0; height: 1px;
+    transition: width 0.3s ease-in-out;
+    background-color: #EEEEEE;
+}
+
+h1:hover::before{
+    width: 100%;
+}
+
+.badge {
+    background-color: #102A39;
+    color: #52D1C0;
+}
+
+.button-link h3 {
+    font-size: 10px;
+}
+
+a img {
+    width: 15px;
+    height: 15px;
+}
+
+.link-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Añade un espacio entre el texto y la imagen */
+}
+
+.button-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    width: 70px; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+}
+
+.project-img {
+    width: 70px;
+    height:70px;
+    margin: 10px 0px;
+}
+
+.project-card {
+    gap: 50px;
+    padding: 20px;
+    width: 500px;
+    margin: 0;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.right-side h3 {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.project-card:hover .right-side h3 {
+    color: #52D1C0;
+}
+
+.project-card:hover {
+    background-color: #181818;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+
+p {
+    color: #748296;
+}
