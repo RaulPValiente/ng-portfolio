@@ -1,59 +1,192 @@
 <div class="container main">
-    <div class="section-title text-center">
-        <h1 class="d-inline-block ">PROJECTS</h1>
-    </div>
-  
-    <div class="row">
-      <div class="col-md-6">
-        <div class="d-flex align-items-center justify-content-center project-card">
-          <div class="left-side align-self-start">
-            <div>
-              <img src="assets/img/html.svg" alt="HTML" class="project-img" />
-            </div>
-            <div class="link-div">
-              <a href="#" class="btn btn-secondary button-link">
-                <h3>CODE</h3>
-                <img src="assets/img/arrow-up-right.svg" alt="Github Link" />
-              </a>
-            </div>
+  <div class="section-title text-center">
+    <h1 class="d-inline-block">PROJECTS</h1>
+  </div>
+
+  <!-- First project -->
+  <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div
+        class="d-flex align-items-center justify-content-center project-card"
+      >
+        <div class="left-side align-self-start">
+          <div>
+            <img
+              src="assets/img/login.webp"
+              alt="Flask Login"
+              class="project-img"
+            />
           </div>
-          <div class="right-side">
-            <h3 class="text-left">Flask Login</h3>
-            <p class="text-left">{{loginDescription}}</p>
-            <div class="d-flex align-items-center justify-content-start tech">
-              <span class="badge">Python</span>
-              <span class="badge">Flask</span>
-              <span class="badge">Jinja</span>
-            </div>
+          <div class="link-div">
+            <a href="#" class="btn btn-secondary button-link">
+              <h3>CODE</h3>
+              <img src="assets/img/arrow-up-right.svg" alt="Github Link" />
+            </a>
+          </div>
+        </div>
+        <div class="right-side">
+          <h3 class="text-left">Flask Login</h3>
+          <p class="text-left">{{ loginDescription }}</p> 
+          <div class="d-flex align-items-center justify-content-start tech">
+            <span class="badge">Python</span>
+            <span class="badge">Flask</span>
+            <span class="badge">SQLite</span>
           </div>
         </div>
       </div>
-  
-      <!-- Segunda tarjeta -->
-      <div class="col-md-6">
-        <div class="d-flex align-items-center justify-content-center project-card">
-          <div class="left-side text-center">
-            <div>
-              <img src="assets/img/html.svg" alt="HTML" />
-            </div>
-            <div>
-              <a href="#" class="btn btn-secondary button-link">
-                <h3>CODE</h3>
-                <img src="assets/img/arrow-up-right.svg" alt="Github Link" />
-              </a>
-            </div>
+    </div>
+
+    <!-- Second Proyect -->
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div
+        class="d-flex align-items-center justify-content-center project-card"
+      >
+        <div class="left-side align-self-start text-center">
+          <div>
+            <img
+              src="assets/img/twitter-db.svg"
+              alt="Twitter Database"
+              class="project-img"
+            />
           </div>
-          <div class="right-side">
-            <h3 class="text-left">Título</h3>
-            <p class="text-left">Descripción</p>
-            <div class="d-flex align-items-center justify-content-start tech">
-              <span class="badge">Java</span>
-              <span class="badge">Spring</span>
-              <span class="badge">Golang</span>
-            </div>
+          <div>
+            <a href="#" class="btn btn-secondary button-link">
+              <h3>CODE</h3>
+              <img src="assets/img/arrow-up-right.svg" alt="Github Link" />
+            </a>
+          </div>
+        </div>
+        <div class="right-side">
+          <h3 class="text-left">Twitter Database</h3>
+          <p class="text-left">{{ twDatabaseDescriprion }}</p>
+          <div class="d-flex align-items-center justify-content-start tech">
+            <span class="badge">MySQL</span>
+            <span class="badge">Workbench</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third project -->
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div
+        class="d-flex align-items-center justify-content-center project-card"
+      >
+        <div class="left-side align-self-start">
+          <div>
+            <img src="assets/img/giphy.webp" alt="GIPHY" class="project-img" />
+          </div>
+          <div class="link-div">
+            <a href="#" class="btn btn-secondary button-link">
+              <h3>CODE</h3>
+              <img src="assets/img/arrow-up-right.svg" alt="Github Link" />
+            </a>
+          </div>
+        </div>
+        <div class="right-side">
+          <h3 class="text-left">GIFs App</h3>
+          <p class="text-left">{{ gifsDescription }}</p>
+          <div class="d-flex align-items-center justify-content-start tech">
+            <span class="badge">Angular</span>
+            <span class="badge">TypeScript</span>
+            <span class="badge">Bootstrap</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div
+        class="d-flex align-items-center justify-content-center project-card"
+      >
+        <div class="left-side align-self-start text-center">
+          <div>
+            <img
+              src="assets/img/portfolio.webp"
+              alt="This portfolio"
+              class="project-img"
+            />
+          </div>
+          <div>
+            <a href="#" class="btn btn-secondary button-link">
+              <h3>CODE</h3>
+              <img src="assets/img/arrow-up-right.svg" alt="Github Link" />
+            </a>
+          </div>
+        </div>
+        <div class="right-side">
+          <h3 class="text-left">This Portfolio</h3>
+          <p class="text-left">{{ portfolioDescription }}</p>
+          <div class="d-flex align-items-center justify-content-start tech">
+            <span class="badge">Angular</span>
+            <span class="badge">TypeScript</span>
+            <span class="badge">Bootstrap</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third project -->
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div
+        class="d-flex align-items-center justify-content-center project-card"
+      >
+        <div class="left-side align-self-start">
+          <div>
+            <img
+              src="assets/img/countries.webp"
+              alt="Countries app"
+              class="project-img"
+            />
+          </div>
+          <div class="link-div">
+            <a href="#" class="btn btn-secondary button-link">
+              <h3>CODE</h3>
+              <img src="assets/img/arrow-up-right.svg" alt="Github Link" />
+            </a>
+          </div>
+        </div>
+        <div class="right-side">
+          <h3 class="text-left">Countries App</h3>
+          <p class="text-left">{{ countriesDescription }}</p>
+          <div class="d-flex align-items-center justify-content-start tech">
+            <span class="badge">Angular</span>
+            <span class="badge">TypeScript</span>
+            <span class="badge">Bootstrap</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div
+        class="d-flex align-items-center justify-content-center project-card"
+      >
+        <div class="left-side align-self-start text-center">
+          <div>
+            <img
+              src="assets/img/svelte-port.webp"
+              alt="Svelte portfolio"
+              class="project-img"
+            />
+          </div>
+          <div>
+            <a href="#" class="btn btn-secondary button-link">
+              <h3>CODE</h3>
+              <img src="assets/img/arrow-up-right.svg" alt="Github Link" />
+            </a>
+          </div>
+        </div>
+        <div class="right-side">
+          <h3 class="text-left">Svelte Portfolio</h3>
+          <p class="text-left">{{ portfolioSvelteDescription }}</p>
+          <div class="d-flex align-items-center justify-content-start tech">
+            <span class="badge">Svelte</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Bootstrap</span>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+</div>

@@ -24,16 +24,18 @@ img:hover {
 }
 
 .tech {
-    margin: 40px;
+    margin: 40px 0px;
     padding: 50px;
-    border: 1px solid antiquewhite;
-    border-radius: 20px;
-    transition: transform 0.3s ease;
+    border-width: thin;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
     gap: 30px;
+    transition: 0.4s ease;
 }
 
 .tech:hover {
-    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.3);
+    background-color: #111111;
 }
 
 h1 {
@@ -89,7 +91,7 @@ h3 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 15px;
+        padding: 10px;
         gap: 20px;
     }
 

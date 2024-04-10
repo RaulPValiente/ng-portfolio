@@ -1,14 +1,17 @@
 .buttons .btn {
-    margin: 0px 10px;
-    border: 1px solid white;
+    transition: 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    gap: 10px;
 }
 
 a {
     text-decoration: none;
     color: #EEEEEE;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .buttons svg {
@@ -50,7 +53,4 @@ svg {
         width: 20px;
     }
     
-    .buttons .btn {
-        margin: 0px 5px;
-    }
 }
