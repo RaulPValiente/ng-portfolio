@@ -74,15 +74,16 @@ a img {
 .project-img {
     width: 120px;
     height: 70px;
-    margin: 10px 0px;
+    object-fit: fill;
+    margin: 5px 0px;
     border-radius: 5px;
 }
 
 .project-card {
     gap: 50px;
     padding: 20px;
-    width: 550px;
-    margin: 0;
+    width: auto;
+    margin: 15px;
     border-radius: 5px;
     transition: 0.3s ease;
 }
@@ -118,7 +119,7 @@ p {
         justify-content: center;
     }
     .project-card {
-        width: auto;
+        width: fit-content;
         gap: 30px;
         padding: 5px;
         margin: 15px 10px;
@@ -148,13 +149,14 @@ p {
 
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (min-width: 768px) and (max-width: 1030px) {
     .main {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .project-card {
         width: fit-content;
         gap: 40px;
