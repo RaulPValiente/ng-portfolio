@@ -1,9 +1,5 @@
-.section-title {
-    margin-bottom: 50px;
-}
-
-h2 {
-    color: white;
+.title {
+    gap: 10px;
 }
 
 img {
@@ -48,7 +44,7 @@ h1 {
     margin: 0 10px;
 }
 
-h1::before{
+h1::before {
     content: "";
     position: absolute;
     bottom: 0; left:0;
@@ -57,7 +53,7 @@ h1::before{
     background-color: #EEEEEE;
 }
 
-h1:hover::before{
+h1:hover::before {
     width: 100%;
 }
 
@@ -78,7 +74,7 @@ h3 {
 }
 
 /* Media query para dispositivos móviles */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .title {
         display: flex;
         align-items: center;
@@ -100,15 +96,20 @@ h3 {
         height: 45px;
         margin: 5px;
     }
-  }
-  
-  /* Media query para tabletas */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Media query para tabletas */
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
     img {
         width: 45px;
         height: 45px;
         margin: 15px;
     }
-    
-  }
-  
+}
