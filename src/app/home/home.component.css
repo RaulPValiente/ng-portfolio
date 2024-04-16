@@ -9,12 +9,16 @@ h2 {
 }
 
 .container {
-    padding: 200px 0px 60px 0px;
+    padding: 180px 0px 50px 0px;
 }
 
 a {
     text-decoration: none;
     color: #EEEEEE;
+}
+
+span {
+    color: #52D1C0;
 }
 
 /* Media query para dispositivos móviles */
