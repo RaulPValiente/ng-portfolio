@@ -1,0 +1,30 @@
+.icons {
+    gap: 20px;
+    padding: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+i {
+    font-size: 20px;
+}
+
+a:hover {
+    color: #52D1C0;
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.2));
+}
+
+.footer {
+    background-color: #111111;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    color: #748296;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+}
+

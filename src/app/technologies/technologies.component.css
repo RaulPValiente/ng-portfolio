@@ -61,17 +61,10 @@ h3 {
     color: white;
 }
 
-.frontend  {
-    color: aqua;
+.frontend, .backend, .other  {
+    color: #52D1C0;
 }
 
-.backend  {
-    color: gold;
-}
-
-.other {
-    color: chartreuse;
-}
 
 /* Media query para dispositivos móviles */
 @media only screen and (max-width: 767px) {
