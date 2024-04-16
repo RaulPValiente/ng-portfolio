@@ -44,7 +44,7 @@ svg {
 /* Media query para dispositivos móviles */
 @media only screen and (max-width: 767px) {
 
-    a, .badge {
+    button, .badge {
         font-size: 14px !important;
     }
 
